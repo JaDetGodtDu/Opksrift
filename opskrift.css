@@ -2,13 +2,22 @@ body {
   background-color: bisque;
 }
 
-h1 {
+#titel {
   background-color: rgb(231, 211, 180);
   color: rgb(0, 0, 0);
   text-align: center;
   font-style: georgia;
 }
-
+#billede {
+  background-color: coral;
+  text-align: center;
+}
+#soupbowl {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 p {
   font-family: verdana;
   font-size: 20px;
