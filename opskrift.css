@@ -1,0 +1,15 @@
+body {
+  background-color: bisque;
+}
+
+h1 {
+  background-color: rgb(231, 211, 180);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-style: georgia;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
