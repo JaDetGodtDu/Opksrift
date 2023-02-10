@@ -10,20 +10,23 @@ body {
   grid-template-areas: "title" "picture";
   background-color: burlywood;
 }
+h1 {
+  font-size: 135%;
+}
 .gridContainer #gc2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 75vh 10vh 10vh;
   grid-template-areas: "description" "ingredientsList" "courseOfAction";
   background-color: rgb(246, 223, 166);
-  /*justify-content: start; -What does this even do?
-  align-content: space-between;*/
+  /*justify-content: start; -What does this even do?*/
+  /*align-content: space-between;*/
 }
 #title {
   font-size: 200%;
   color: rgb(0, 0, 0);
   text-align: center;
-  font-style: georgia;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   width: 100%;
   height: 60px;
   grid-area: title;
@@ -48,12 +51,12 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   grid-row: 1/1;
   grid-column: 1/2;
-  margin: 20px 0px 500px 10px;
+  margin: 20px 0px 450px 10px;
   padding: 5px 10px 10px 20px;
   border-width: 2px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  border-radius: 2em;
+  border-color: rgb(144, 142, 142);
+  border-radius: 1.5em;
 }
 #ingredientsList {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -63,12 +66,17 @@ body {
   padding: 5px 10px 10px 20px;
   border-width: 2px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  border-radius: 2em;
+  border-color: rgb(144, 142, 142);
+  border-radius: 1.5em;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 150%;
 }
 #courseOfAction {
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
+  margin: 5px 10px 10px 10px;
+  padding: 5px 10px 10px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 p {
   font-family: verdana;
